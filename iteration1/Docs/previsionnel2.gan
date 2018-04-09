@@ -39,7 +39,7 @@
         <task id="125" name="Popup connection/inscription" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
         <task id="152" name="Integration panel admin" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
         <task id="169" name="Include footer" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
-        <task id="172" name="Integration et implementation back office" color="#8cb6ce" meeting="false" start="2018-04-09" duration="8" complete="0" thirdDate="2018-04-10" thirdDate-constraint="0" expand="true"/>
+        <task id="172" name="Integration et implementation back office" color="#8cb6ce" meeting="false" start="2018-04-09" duration="8" complete="0" thirdDate="2018-04-09" thirdDate-constraint="0" expand="true"/>
         <task id="135" name="Implementation authentification" color="#8cb6ce" meeting="false" start="2018-04-10" duration="4" complete="0" thirdDate="2018-04-10" thirdDate-constraint="0" expand="true"/>
         <task id="142" name="Integration gallerie" color="#8cb6ce" meeting="false" start="2018-04-10" duration="4" complete="0" thirdDate="2018-04-10" thirdDate-constraint="0" expand="true"/>
         <task id="157" name="AUDIT SEO" color="#8cb6ce" meeting="false" start="2018-04-13" duration="3" complete="0" thirdDate="2018-04-13" thirdDate-constraint="0" expand="true"/>
@@ -54,15 +54,17 @@
     </resources>
     <allocations>
         <allocation task-id="126" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="152" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="157" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="169" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="173" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="120" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="122" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="142" resource-id="1" function="1" responsible="true" load="100.0"/>
         <allocation task-id="125" resource-id="2" function="1" responsible="true" load="100.0"/>
         <allocation task-id="135" resource-id="2" function="1" responsible="true" load="100.0"/>
         <allocation task-id="140" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="152" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="172" resource-id="2" function="1" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>

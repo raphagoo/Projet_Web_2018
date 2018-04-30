@@ -22,15 +22,15 @@ CREATE TABLE IF NOT EXISTS Admin(
 
 CREATE TABLE IF NOT EXISTS Details(
         details_id  int (11) Auto_increment  NOT NULL ,
-        email       Varchar (80) NOT NULL ,
-        address1    Varchar (50) NOT NULL ,
+        email       Varchar (80) ,
+        address1    Varchar (50) ,
         address2    Varchar (50) ,
-        country     Varchar (40) NOT NULL ,
+        country     Varchar (40) ,
         city        Varchar (80) ,
         zipCode     Varchar (40) ,
         phone       Varchar (25) ,
-        firstName   Varchar (50) NOT NULL ,
-        lastName    Varchar (50) NOT NULL ,
+        firstName   Varchar (50) ,
+        lastName    Varchar (50) ,
         customer_id Int ,
         Admin_id    Int ,
         PRIMARY KEY (details_id )

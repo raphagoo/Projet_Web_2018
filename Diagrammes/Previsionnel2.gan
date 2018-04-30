@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><project name="Le comptoir des arts" company="" webLink="http://" view-date="2018-03-26" view-index="0" gantt-divider-location="512" resource-divider-location="300" version="2.8.6" locale="fr">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="274" order="0"/>
+        <field id="tpd4" name="Date de début" width="100" order="1"/>
+        <field id="tpd5" name="Date de fin" width="134" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="120" name="integration index" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
+        <task id="126" name="Documentation" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
+        <task id="122" name="integration about" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
+        <task id="125" name="Popup connection/inscription" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
+        <task id="152" name="Integration panel admin" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
+        <task id="169" name="Include footer" color="#8cb6ce" meeting="false" start="2018-03-30" duration="7" complete="0" thirdDate="2018-03-30" thirdDate-constraint="0" expand="true"/>
+        <task id="172" name="Integration et implementation back office" color="#8cb6ce" meeting="false" start="2018-04-09" duration="8" complete="0" thirdDate="2018-04-09" thirdDate-constraint="0" expand="true"/>
+        <task id="135" name="Implementation authentification" color="#8cb6ce" meeting="false" start="2018-04-10" duration="4" complete="0" thirdDate="2018-04-10" thirdDate-constraint="0" expand="true"/>
+        <task id="142" name="Integration gallerie" color="#8cb6ce" meeting="false" start="2018-04-10" duration="4" complete="0" thirdDate="2018-04-10" thirdDate-constraint="0" expand="true"/>
+        <task id="157" name="AUDIT SEO" color="#8cb6ce" meeting="false" start="2018-04-13" duration="3" complete="0" thirdDate="2018-04-13" thirdDate-constraint="0" expand="true"/>
+        <task id="140" name="Implementation panier" color="#8cb6ce" meeting="false" start="2018-04-13" duration="7" complete="0" thirdDate="2018-04-13" thirdDate-constraint="0" expand="true"/>
+        <task id="167" name="Paiement securisé" color="#8cb6ce" meeting="false" start="2018-04-23" duration="5" complete="0" thirdDate="2018-04-23" thirdDate-constraint="0" expand="true"/>
+        <task id="173" name="Mise en ligne" color="#8cb6ce" meeting="false" start="2018-04-30" duration="3" complete="0" thirdDate="2018-04-30" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Yohann" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Raphael" function="1" contacts="" phone=""/>
+        <resource id="2" name="Nathan" function="1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="126" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="157" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="169" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="173" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="120" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="122" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="142" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="135" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="140" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="152" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="172" resource-id="2" function="1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Dev"/>
+    </roles>
+</project>

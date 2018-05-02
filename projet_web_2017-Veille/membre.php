@@ -13,6 +13,11 @@ require ('include/connectToDB.inc.php');
 </head>
 <body>
 <?php require ('include/header.php');
+    
+if (empty($_SESSION['userName']))
+{
+    die("Seul les membres peuvent consulter leurs informations. <a href='index.php'>Retour à l'index</a>");
+}
 
 if (!empty($_SESSION['userName']) && $_SESSION['rank'] == 0)
 {

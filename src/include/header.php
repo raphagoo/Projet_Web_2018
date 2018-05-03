@@ -3,6 +3,14 @@
  <?php require ("connexionPopup.inc.php") ?>
  <?php require ('scriptConnexionPopup.inc.php') ?>
  <?php require("connexion.inc.php"); ?>
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset="utf8">
+     <link rel="stylesheet" href="Assets/CSS/ste.css">
+     <Title><?php echo $articlefetch[0]['name'] ." by " . $articlefetch[0]['Artist_name']?> </Title>
+ </head>
+ <body ng-app="myApp">
     <div class="container">
          <a href="index.php"><img id="logoheader" width="100" height="100" src="Assets/CSS/icons/logonoir.png" alt="logonoir"></a>
             <div id="titre">

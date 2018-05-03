@@ -2,14 +2,6 @@
     $article = $dbh->prepare('SELECT * FROM product WHERE Product_id = ' . $_GET['id']);
     $article->execute();
     $articlefetch = $article->fetchAll(); ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf8">
-    <link rel="stylesheet" href="Assets/CSS/ste.css">
-    <Title><?php echo $articlefetch[0]['name'] ." by " . $articlefetch[0]['Artist_name']?> </Title>
-</head>
-<body>
 <?php require('include/header.php'); ?>
 <div id="conteneur">
     <?php

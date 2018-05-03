@@ -20,6 +20,15 @@ CREATE TABLE IF NOT EXISTS `admin` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
+-- Déchargement des données de la table `admin`
+--
+
+INSERT INTO `admin` (`Admin_id`, `username`, `password`, `details_id`) VALUES
+(1, 'admin', '$argon2i$v=19$m=1024,t=2,p=2$aUNOTEFKcGVUc0FRWnhQbw$mn37yI5rGfu1JDGr1jHCpEBljBlJBalTZNgXV72MkCU', 1);
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `artist`
 --
 
@@ -232,10 +241,6 @@ ALTER TABLE `product`
   ADD CONSTRAINT `FK_Product_Artist_name` FOREIGN KEY (`Artist_name`) REFERENCES `artist` (`Artist_name`) ON DELETE SET NULL ON UPDATE CASCADE;
 COMMIT;
 
-INSERT INTO `admin` (`Admin_id`, `username`, `password`, `details_id`) VALUES
-(1, 'admin', '$argon2i$v=19$m=1024,t=2,p=2$aUNOTEFKcGVUc0FRWnhQbw$mn37yI5rGfu1JDGr1jHCpEBljBlJBalTZNgXV72MkCU', NULL);
-
-INSERT INTO `details` (`details_id`, `email`, `address1`, `address2`, `country`, `city`, `zipCode`, `phone`, `firstName`, `lastName`, `customer_id`, `Admin_id`) VALUES
-(1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1);
-
-UPDATE admin SET details_id=1;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

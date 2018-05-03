@@ -6,7 +6,7 @@
     <Title>Le Comptoir des Arts - Gallerie</Title>
     <script type="text/javascript"></script>
 </head>
-<body ng-app="myApp">
+<body>
 <?php require('include/header.php'); ?>
 <div ng-controller="ContentCtrl">
     <div id="formulairerecherche">
@@ -51,8 +51,8 @@
             <input type="checkbox" ng-model="query.marron" name="couleur" ng-true-value="'marron'" ng-false-value="''">Marron
             <input type="checkbox" ng-model="query.bordeaux" name="couleur" ng-true-value="'bordeaux'" ng-false-value="''">Bordeaux<br>
             <input type="checkbox" ng-model="query.beige" name="couleur" ng-true-value="'beige'" ng-false-value="''">Beige
-            <input type="checkbox" ng-model="query.rose" name="couleur" ng-true-value="'noir'" ng-false-value="''">Rose<br>
-            <input type="checkbox" ng-model="query.bleumarine" name="couleur" ng-true-value="'noir'" ng-false-value="''">Bleu marine<br><br>
+            <input type="checkbox" ng-model="query.rose" name="couleur" ng-true-value="'rose'" ng-false-value="''">Rose<br>
+            <input type="checkbox" ng-model="query.bleumarine" name="couleur" ng-true-value="'bleumarine'" ng-false-value="''">Bleu marine<br><br>
         </form>
     </div>
     <div id="tableaux">

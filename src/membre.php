@@ -3,15 +3,6 @@ require ('include/connectToDB.inc.php');
 
 
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf8">
-    <link rel="stylesheet" href="Assets/CSS/ste.css">
-    <link rel="stylesheet" href="Assets/CSS/memberOrderTableStyle.css">
-    <Title>Le Comptoir des Arts - Membre</Title>
-</head>
-<body>
 <?php require ('include/header.php');
     
 if (empty($_SESSION['userName']))

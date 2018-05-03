@@ -1,4 +1,4 @@
-        <!-- The Modal -->
+﻿        <!-- The Modal -->
         <div id="divConnexionPopup" class="modal">
             <!-- Modal Content -->
             <form class="modal-content animate" action="registration.php" method="post" id="form-signin">
@@ -9,7 +9,7 @@
                         <button onclick="swapToSigninForm();" class="buttonSwapConnexionPopup-active">Inscription</button>
                         <button onclick="swapToLoginForm();" class="buttonSwapConnexionPopup-inactive">Connexion</button>
                     </div>
-
+                    <div onclick="closePopup();" class="fermerpoup"><img src="Assets/CSS/Icons/croix.png"></div>
                     <div id="container-desc">
                         <h2>Bienvenue au comptoir des Arts !</h2>
                         <p>Découvrez et achetez en ligne de nombreuses pièces d'arts visuels</p>
@@ -41,7 +41,7 @@
                         <button onclick="swapToSigninForm();" class="buttonSwapConnexionPopup-inactive">Inscription</button>
                         <button onclick="swapToLoginForm();" class="buttonSwapConnexionPopup-active">Connexion</button>
                     </div>
-
+                    <div onclick="closePopup();" class="fermerpoup"><img src="Assets/CSS/Icons/croix.png"></div>
                     <div id="container-desc">
                         <h2>Bienvenue au comptoir des Arts !</h2>
                         <p>Découvrez et achetez en ligne de nombreuses pièces d'arts visuels</p>

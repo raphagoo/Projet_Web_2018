@@ -13,4 +13,5 @@
 </div>
 <?php require ('include/footer.php') ?>
 </body>
+<script src="Assets/Scripts/javascript.js"></script>
 </html>

@@ -87,7 +87,7 @@ if (!empty($_POST['cartSubmit']))
     </head>
 
     <body>
-        <div class="container">
+        <div class="container2">
             <div class="row">
                 <a href="galerie.php"><img id="logoheader" width="100" height="100" src="Assets/CSS/icons/logonoir.png" alt="logonoir"></a></li>
                 <?php
@@ -124,7 +124,7 @@ if (!empty($_POST['cartSubmit']))
                                     <h3>" . $cart->getArticles()[$i]['name'] . "</h3>
                                     <p><span class='spanArticleDescrition'>IMAGE :  </span></p>
                                     
-                                    <img src='".$path."' alt=' ". $cart->getArticles()[$i]['name'] ." '>
+                                    <img height='50%' width='50%' src='".$path."' alt=' ". $cart->getArticles()[$i]['name'] ." '>
                                     <input name='delete' type='submit' value='Supprimer' />
                                 </div>
                                 <div class='col-md-4'>
@@ -172,6 +172,7 @@ if (!empty($_POST['cartSubmit']))
                 </div>
             </form>
         </div>
+        <?php require ('include/footer.php') ?>
     <script type="application/javascript" src="Assets/Scripts/live_article_price_script.js"></script>
     </body>
 </html>

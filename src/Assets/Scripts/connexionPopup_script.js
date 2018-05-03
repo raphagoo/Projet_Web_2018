@@ -64,3 +64,6 @@ function wrongEmailStyle(){
     var emailInput = document.getElementById('email');
     emailInput.style.backgroundColor = "red";
 }
+function closePopup(){
+    document.getElementById('divConnexionPopup').style.display = "none";
+}

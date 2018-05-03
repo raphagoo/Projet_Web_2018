@@ -40,6 +40,12 @@ html,body{
 .imgpanier {
 }
 .container{
+     background-color: white;
+     height: 100px;
+     width: auto;
+     border-bottom: solid grey 1px;
+ }
+.container2{
     background-color: white;
     height: 100px;
     width: auto;
@@ -418,6 +424,9 @@ input[type=range]:focus::-ms-fill-upper {
     text-decoration: none;
     color: black;
 }
+@media only screen and (min-width: 1366px){
+    #about {padding-left: 6%;}
+}
 @media only screen and (max-width: 1366px){
     #commencer {font-size: 100%;}
 }
@@ -490,7 +499,11 @@ input[type=range]:focus::-ms-fill-upper {
     cursor: pointer;
     width: 100%;
 }
-
+.fermerpoup{
+    float: right;
+    margin-top: -3%;
+    cursor: pointer;
+}
 .submitConnexionPopup:hover {
     opacity: 0.8;
 }

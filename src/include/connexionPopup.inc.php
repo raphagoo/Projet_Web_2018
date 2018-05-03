@@ -6,8 +6,8 @@
                 <div class="containerpopup">
 
                     <div id="buttons-container">
-                        <button onclick="swapToSigninForm();" class="buttonSwapConnexionPopup-active">Inscription</button>
-                        <button onclick="swapToLoginForm();" class="buttonSwapConnexionPopup-inactive">Connexion</button>
+                        <a onclick="swapToSigninForm();" class="buttonSwapConnexionPopup-active">Inscription</a>
+                        <a onclick="swapToLoginForm();" class="buttonSwapConnexionPopup-inactive">Connexion</a>
                     </div>
                     <div onclick="closePopup();" class="fermerpoup"><img src="Assets/CSS/Icons/croix.png"></div>
                     <div id="container-desc">
@@ -38,8 +38,8 @@
                 <div class="containerpopup">
 
                     <div id="buttons-container">
-                        <button onclick="swapToSigninForm();" class="buttonSwapConnexionPopup-inactive">Inscription</button>
-                        <button onclick="swapToLoginForm();" class="buttonSwapConnexionPopup-active">Connexion</button>
+                        <a onclick="swapToSigninForm();" class="buttonSwapConnexionPopup-inactive">Inscription</a>
+                        <a onclick="swapToLoginForm();" class="buttonSwapConnexionPopup-active">Connexion</a>
                     </div>
                     <div onclick="closePopup();" class="fermerpoup"><img src="Assets/CSS/Icons/croix.png"></div>
                     <div id="container-desc">

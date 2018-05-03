@@ -6,7 +6,7 @@
     <Title>Le Comptoir des Arts - Gallerie</Title>
     <script type="text/javascript"></script>
 </head>
-<body>
+<body ng-app="myApp">
 <?php require('include/header.php'); ?>
 <div ng-controller="ContentCtrl">
     <div id="formulairerecherche">

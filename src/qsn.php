@@ -1,4 +1,11 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="Assets/CSS/ste.css">
+    <Title>Le Comptoir des Arts - QSN</Title>
+</head>
+<body>
 <?php require('include/header.php'); ?>
 <div id="qsn">
 <h1>Qui sommes nous ?</h1><br>

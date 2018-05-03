@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="Assets/CSS/ste.css">
+    <Title>Le Comptoir des Arts - Contact </Title>
+</head>
+<body>
 <?php require ('include/header.php') ?>
 <div id="titrecontact">
 <h1>Contact</h1>

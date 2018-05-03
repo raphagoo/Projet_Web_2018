@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:dbname=projet_web_2017;host=localhost';
+$dsn = 'mysql:dbname=le_comptoir_des_arts;host=localhost';
 $DBuser = 'root';
 $DBpassword = '';
 

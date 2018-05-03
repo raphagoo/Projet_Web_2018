@@ -1,8 +1,8 @@
  <?php session_start(); ?>
- <?php require ('include/connectToDB.inc.php') ?>
- <?php require ("include/connexionPopup.inc.php") ?>
+ <?php require ('connectToDB.inc.php') ?>
+ <?php require ("connexionPopup.inc.php") ?>
  <?php require ('scriptConnexionPopup.inc.php') ?>
- <?php require("include/connexion.inc.php"); ?>
+ <?php require("connexion.inc.php"); ?>
     <div class="container">
          <a href="index.php"><img id="logoheader" width="100" height="100" src="Assets/CSS/icons/logonoir.png" alt="logonoir"></a>
             <div id="titre">

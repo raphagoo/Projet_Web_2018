@@ -85,6 +85,7 @@ if (!empty($_POST['validateDetailsModifications']) && $_SESSION['rank'] == 0) {
 
 
 ?>
+<link rel="stylesheet" href="Assets/CSS/ste.css">
 <div id="membreinfo">
 <h2>Mes Informations</h2>
 <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
